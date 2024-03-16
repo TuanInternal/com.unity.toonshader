@@ -1,0 +1,17 @@
+yamato_name: uts2
+---
+pr-builtin:
+  name: PR BUILTIN_Aggregate
+  variables:
+    TEST_FILTER: '{{test_filters.generic}}'
+    UTR_VERSION: 1.28.0
+    GTF_VERSION: use_version_in_manifest
+    CLI_PROJECT_SETUP_VERSION:
+      value: com.unity.cli-project-setup@file:../../../Packages/com.unity.cli-project-setup
+      propagate: always
+    METADATA_MANAGER_VERSION:
+      value: com.unity.test.metadata-manager@file:../../../Packages/com.unity.test.metadata-manager
+      propagate: always
+  quota_group: graphics
+  dependencies:
+  - path: .yamato/win_dx11-legacy-2020.3.yml

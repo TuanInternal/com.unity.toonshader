@@ -1,6 +1,7 @@
 #
 #
 #
+tests:
 test_projects:
   - name: LegacyGraphicsTest-2020.3
 unity_versions:

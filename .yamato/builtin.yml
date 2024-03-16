@@ -15,4 +15,4 @@ pr-builtin:
       propagate: always
   quota_group: graphics
   dependencies:
-  - path: .yamato/win_dx11-legacy-2020.3.yml
+  - path: .yamato/win_dx11-legacy-2020.3.yml#tests

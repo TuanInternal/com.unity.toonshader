@@ -1,4 +1,5 @@
 yamato_name: uts2
+{% metadata_file .yamato/test-filters.metafile -%}
 ---
 pr-builtin:
   name: PR BUILTIN_Aggregate

@@ -1,0 +1,5 @@
+test_filters:
+  generic: .*
+  urp: Unity.RenderPipelines.Universal.*
+  hdrp: Unity.RenderPipelines.HighDefinition.*
+  srp_core: Unity.RenderPipelines.Core.*
